@@ -1,0 +1,24 @@
+var options = {
+  "nodes": {
+    "font": {
+      "size": 31
+    }
+  },
+  "edges": {
+    "color": {
+      "inherit": true
+    },
+    "font": {
+      "size": 18
+    },
+    "smooth": false
+  },
+  "physics": {
+    "barnesHut": {
+      "centralGravity": 0.1,
+      "springLength": 480
+    },
+    "maxVelocity": 86,
+    "minVelocity": 0.75
+  }
+}
